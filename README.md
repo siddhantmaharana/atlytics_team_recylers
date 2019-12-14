@@ -2,7 +2,7 @@
 
 ## News
 
-* JLL, Sat11:34, US census is a bit bewildering for me. So many variables. Anybody having some luck handling US Census API? I am now using the Python module [uszipcode](https://uszipcode.readthedocs.io/index.html#)  to get demographic and economic data per zipcode. Only problem so far: it needs to be installed via pip. See snippet for installation within a Jupyter notebook environment.
+* JLL, Sat11:34:  US census is a bit bewildering for me. So many variables. Anybody having some luck handling US Census API? I am now using the Python module [uszipcode](https://uszipcode.readthedocs.io/index.html#)  to get demographic and economic data per zipcode. Only problem so far: it needs to be installed via pip. See snippet for installation within a Jupyter notebook environment.
 
 ## Resources:
 
