@@ -3,7 +3,7 @@
 ## Resources:
 
 ### EV data
-#### [Registration and sales by zipcode](https://www.atlasevhub.com/materials/state-ev-registration-data/)
+#### [ev hub, Registration and sales by zipcode](https://www.atlasevhub.com/materials/state-ev-registration-data/)
 ### Charging stations
 #### [Charging location data, openchargemap](https://openchargemap.org/site/develop/api)
 #### [Chargehub, load on charging stations is updated every 5 mins](https://chargehub.com/en/about-chargehub.html)
