@@ -7,6 +7,8 @@
 import sys
 !{sys.executable} -m pip install uszipcode
 ```
+The added complexity is to ensure that only the local Jupyter environment is affected, see [Installing Python Packages from a Jupyter Notebook](https://jakevdp.github.io/blog/2017/12/05/installing-python-packages-from-jupyter/)
+
 
 ## Resources:
 
