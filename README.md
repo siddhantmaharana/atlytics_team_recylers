@@ -1,6 +1,7 @@
 # atlytics_team_recylers
 
 ## News
+* JLL Sun 5:25: Just uploaded a clean version of registration data, clean_df.csv. Only rows with zipcodes that appear in  uszipcode_data are now present. Remain to check if the state matches as expected.
 * JLL ,Sun 12:12: Moving forward again :). We now have a dataframe that gives us a plethora of demographic and economic indicators per zipcode. See uszipcode_data.csv, roughly 100MB.
 * Sid, Sat14:31: 
   - I tried to aggregate all the data from the EV hub and have downloaded in the data folder(compressed as a zip file). 
