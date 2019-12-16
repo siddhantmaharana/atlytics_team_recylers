@@ -20,6 +20,7 @@ The added complexity is to ensure that only the local Jupyter environment is aff
 ### EV data
 #### [ev hub, Registration and sales by zipcode](https://www.atlasevhub.com/materials/state-ev-registration-data/)
 ### Charging stations
+#### [WA Reg_data](https://catalog.data.gov/dataset/electric-vehicle-population-data)
 #### [Charging location data, openchargemap](https://openchargemap.org/site/develop/api)
 #### [Chargehub, load on charging stations is updated every 5 mins](https://chargehub.com/en/about-chargehub.html)
 #### [Electric Charging station usage data, Canada](https://www.fleetcarma.com/evCloud/Stations)
