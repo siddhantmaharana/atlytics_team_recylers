@@ -6,15 +6,19 @@
 2. JLL to Sid: Which time period did you use? It has to be a 12 month period for the same car will reregister every year (on the birthday of the owner at the latest)?
 	- Filtered it to just 2018 data
 3. We may work with:
-- the number of new registrations wthin a time period ( that what we have been doing)
-- the number of evs on the road ( ie the number of evs with a valid registration)
-To compute the second number: pick a date. https://www.atlasevhub.com/materials/state-ev-registration-data/ uses 8/10/2019. Go through the registration database and pick the rows where 8/10/2019 is between the registration date and the expiration date. Now we have the cars that have a valid registration at 8/10/2019, or what they call the cars on the road.
+	- the number of new registrations wthin a time period ( that what we have been doing)
+	- the number of evs on the road ( ie the number of evs with a valid registration)
+	To compute the second number: pick a date. https://www.atlasevhub.com/materials/state-ev-registration-data/ uses 8/10/2019. Go through the registration database and pick the rows where 8/10/2019 is between the registration date and the expiration date. Now we have the cars that have a valid registration at 8/10/2019, or what they call the cars on the road. 
 The advantage of using cars on the road ( per 1000):
 - fits nicely with the ev charging station study ( cars on the road in a particular location by model) 
 - it is what ev hub is using (hence easy comparison for checking our values)
 - registration validity may not be one year in all juridistions or for all drivers. We may not be able to go from new registrations to cars on the road that easily.
 What ya'll think?
 
+4 Sid to JLL:
+	- Ya, I have filtered the data to contain just the registrations in 2018
+	- That would definitely sum to EVs on road. To answer your other question, if you head over to that website and change a state, the snapshot date changes. Even I thought I would just pick the latest snapshot date. So, right now I am limiting all the rows within Jan 1, 2018 till Dec 31, 2018. That should be good for the analyses. Except for Colorado and a couple of other states, a lot of them don't even allign with that provided in the website.
+	- And, if you check out my other notebook(2), I have calculated EV per 1k people. That could be our target variable. 
 
 ## Proj Plan
 
