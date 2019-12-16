@@ -58,6 +58,12 @@ The added complexity is to ensure that only the local Jupyter environment is aff
 ### EV data
 1.  [ev hub, Registration and sales by zipcode](https://www.atlasevhub.com/materials/state-ev-registration-data/)
 2. [WA Reg_data](https://catalog.data.gov/dataset/electric-vehicle-population-data)
+3. [Vehicle Fuel Type Count by Zip Code for California](https://data.ca.gov/dataset/vehicle-fuel-type-count-by-zip-code/resource/d304108a-06c1-462f-a144-981dd0109900) 600K entries, year 2018, 17K entries for BEV,Plug In Hybrid 16K
+4. [Vehicle, Snowmobile, and Boat Registrations](https://data.ny.gov/Transportation/Vehicle-Snowmobile-and-Boat-Registrations/w4pv-hbkt/data) "This dataset contains the file of vehicle, snowmobile and boat registrations in NYS." 12 million entries. Electric Vehicles per County subset, 
+
+
+
+
 
 ### Charging stations
 
