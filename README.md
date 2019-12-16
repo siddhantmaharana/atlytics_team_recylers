@@ -24,6 +24,7 @@ The added complexity is to ensure that only the local Jupyter environment is aff
 #### [Chargehub, load on charging stations is updated every 5 mins](https://chargehub.com/en/about-chargehub.html)
 #### [Electric Charging station usage data, Canada](https://www.fleetcarma.com/evCloud/Stations)
 #### [Electric Charging station usage data, NYSERDA](https://www.nyserda.ny.gov/Researchers-and-Policymakers/Electric-Vehicles/Resources)
+#### [WA reg data](https://catalog.data.gov/dataset/electric-vehicle-population-data)
 
 ### Demographics data
 #### [US Census data](https://data.census.gov/cedsci/)
