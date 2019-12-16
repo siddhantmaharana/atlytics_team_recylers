@@ -23,15 +23,21 @@ Dropbox link: https://www.dropbox.com/sh/l7t43kaain31w4r/AAD1cxKOc3owapsbtQpoJYY
 
 
 ## News
-* Sid Mon 00:21: 
-- Cleaned the EV data. Now it contains data for the following states
-	- Colorado, Connecticut, Michigan, Minnesota, Washington, Texas, Oregon, Virginia, Vermont
-- Each row should now ideally represent each registration[Limited it to 2017-18]
-- Now the code is in 1_SID_get_data_from_evhub_V2 notebook.
-- Cleaned the blank ZIP codes
-- Get the final csv from ev_data file(in the Dropbox)
-- 
 
+* Sid Mon 02:24
+Notebook:  2_SID_get_metrics_by_ZIP
+	- get target variables(EV per 1k)
+	- get features cleaned as well
+	- use these to frame this into a regression problem
+
+* Sid Mon 00:21: 
+	- Cleaned the EV data. Now it contains data for the following states
+		- Colorado, Connecticut, Michigan, Minnesota, Washington, Texas, Oregon, Virginia, Vermont
+	- Each row should now ideally represent each registration[Limited it to 2017-18]
+	- Now the code is in 1_SID_get_data_from_evhub_V2 notebook.
+	- Cleaned the blank ZIP codes
+	- Get the final csv from ev_data file(in the Dropbox)
+-
 
 * JLL Sun 5:25: Just uploaded a clean version of registration data, clean_df.csv. Only rows with zipcodes that appear in  uszipcode_data are now present. Remain to check if the state matches as expected.
 * JLL ,Sun 12:12: Moving forward again :). We now have a dataframe that gives us a plethora of demographic and economic indicators per zipcode. See uszipcode_data.csv, roughly 100MB.
