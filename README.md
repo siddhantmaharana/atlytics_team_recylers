@@ -1,5 +1,9 @@
 # atlytics_team_recylers
 
+## Temporary questions
+1. JLL to Sid: Did you filter the dataset on BEV or did you keep all the entries?
+1. JLL to Sid: Which time period did you use? It has to be a 12 month period for the same car will reregister every year (on the birthday of the owner at the latest)?
+
 
 ## Proj Plan
 
