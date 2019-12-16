@@ -7,11 +7,11 @@
 	- Filtered it to just 2018 data
 3. We may work with:
 - the number of new registrations wthin a time period ( that what we have been doing)
-- the number of ev on the road ( ie the number of ev with a valid registration)
+- the number of evs on the road ( ie the number of evs with a valid registration)
 To compute the second number: pick a date. https://www.atlasevhub.com/materials/state-ev-registration-data/ uses 8/10/2019. Go through the registration database and pick the rows where 8/10/2019 is between the registration date and the expiration date. Now we have the cars that have a valid registration at 8/10/2019, or what they call the cars on the road.
 The advantage of using cars on the road ( per 1000):
 - fits nicely with the ev charging station study ( cars on the road in a particular location by model) 
-- it is what ev hub is using (hence easy comparison ofr checking our values)
+- it is what ev hub is using (hence easy comparison for checking our values)
 - registration validity may not be one year in all juridistions or for all drivers. We may not be able to go from new registrations to cars on the road that easily.
 What ya'll think?
 
