@@ -2,7 +2,9 @@
 
 ## Temporary questions
 1. JLL to Sid: Did you filter the dataset on BEV or did you keep all the entries?
+	- It includes all the EV registration data 
 1. JLL to Sid: Which time period did you use? It has to be a 12 month period for the same car will reregister every year (on the birthday of the owner at the latest)?
+	- Filtered it to just 2018 data
 
 
 ## Proj Plan
@@ -27,6 +29,10 @@ Dropbox link: https://www.dropbox.com/sh/l7t43kaain31w4r/AAD1cxKOc3owapsbtQpoJYY
 
 
 ## News
+
+
+* Sid Mon 12:18
+	- Filtered data to include just 2018 reg data(ev_data.csv)
 
 * Sid Mon 02:24
 Notebook:  2_SID_get_metrics_by_ZIP
