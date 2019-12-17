@@ -12,13 +12,16 @@
 The advantage of using cars on the road ( per 1000):
 - fits nicely with the ev charging station study ( cars on the road in a particular location by model) 
 - it is what ev hub is using (hence easy comparison for checking our values)
-- registration validity may not be one year in all juridistions or for all drivers. We may not be able to go from new registrations to cars on the road that easily.
+c- registration validity may not be one year in all juridictions or for all drivers. We may not be able to go from new registrations to cars on the road that easily.
+
 What ya'll think?
 
 4 Sid to JLL:
 	- Ya, I have filtered the data to contain just the registrations in 2018
 	- That would definitely sum to EVs on road. To answer your other question, if you head over to that website and change a state, the snapshot date changes. Even I thought I would just pick the latest snapshot date. So, right now I am limiting all the rows within Jan 1, 2018 till Dec 31, 2018. That should be good for the analyses. Except for Colorado and a couple of other states, a lot of them don't even allign with that provided in the website.
 	- And, if you check out my other notebook(2), I have calculated EV per 1k people. That could be our target variable. 
+
+Answer: That is a perfectly fine approach for our purpose. We are talking of two related target variables (Maybe identical but I am not convinced at this point and do not want to take the time to investigate). Let's stick to the one we started with and that you prefer.
 
 ## Proj Plan
 
@@ -94,6 +97,7 @@ The added complexity is to ensure that only the local Jupyter environment is aff
 2. [Chargehub, load on charging stations is updated every 5 mins](https://chargehub.com/en/about-chargehub.html)
 3. [Electric Charging station usage data, Canada](https://www.fleetcarma.com/evCloud/Stations)
 4. [Electric Charging station usage data, NYSERDA](https://www.nyserda.ny.gov/Researchers-and-Policymakers/Electric-Vehicles/Resources)
+5. [Charge time data, Boulder](https://bouldercolorado.gov/open-data/electric-vehicle-charging-stations/)
 
 ### Demographics data
 1.  [US Census data](https://data.census.gov/cedsci/)
